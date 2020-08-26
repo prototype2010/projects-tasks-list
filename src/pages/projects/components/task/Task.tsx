@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme: Theme) =>
       right: 10,
 
       '&:last-child': {
-        //display: 'none', // TODO UNCOMMENT THIS
+        display: 'none',
       },
     },
     iconContainer: {
