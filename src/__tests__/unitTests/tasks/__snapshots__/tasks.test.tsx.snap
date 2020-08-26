@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`projects Can be created 1`] = `
+<div>
+  <header>
+    <h1>SIMPLE TODO LISTS</h1>
+    <h5>FROM RUBY GARAGE</h5>
+  </header>
+  <div>
+    <div>
+      <div><span><span>GREAT PROJECT</span></span><span><div></div><div></div></span></div>
+      <div>
+        <div><input data-testid="project-input-94" placeholder="Start typing here to create a new task..." value><button data-testid="add-task-for-project-94">Add Task</button></div>
+      </div>
+      <div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-1"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>111111111</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-2"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>222222222</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div><span><span>AWESOME PROJECT</span></span><span><div></div><div></div></span></div>
+      <div>
+        <div><input data-testid="project-input-0" placeholder="Start typing here to create a new task..." value><button data-testid="add-task-for-project-0">Add Task</button></div>
+      </div>
+      <div>
+        <div>No tasks yet</div>
+      </div>
+    </div>
+  </div><button data-testid="create-project"> Add TODO List</button>
+  <div aria-hidden="true">
+    <div></div>
+  </div>
+</div>
+`;
+
+exports[`projects Can be deleted 1`] = `
+<div>
+  <header>
+    <h1>SIMPLE TODO LISTS</h1>
+    <h5>FROM RUBY GARAGE</h5>
+  </header>
+  <div>
+    <div>
+      <div><span><span>GREAT PROJECT</span></span><span><div></div><div></div></span></div>
+      <div>
+        <div><input data-testid="project-input-94" placeholder="Start typing here to create a new task..." value><button data-testid="add-task-for-project-94">Add Task</button></div>
+      </div>
+      <div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-1"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>111111111</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-2"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>222222222</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><button data-testid="create-project"> Add TODO List</button>
+  <div aria-hidden="true">
+    <div></div>
+  </div>
+</div>
+`;
+
+exports[`projects Can be edited 1`] = `
+<div>
+  <header>
+    <h1>SIMPLE TODO LISTS</h1>
+    <h5>FROM RUBY GARAGE</h5>
+  </header>
+  <div>
+    <div>
+      <div><span><span>NEW AWESOME NAME</span></span><span><div></div><div></div></span></div>
+      <div>
+        <div><input data-testid="project-input-94" placeholder="Start typing here to create a new task..." value><button data-testid="add-task-for-project-94">Add Task</button></div>
+      </div>
+      <div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-1"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>111111111</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-2"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>222222222</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><button data-testid="create-project"> Add TODO List</button>
+  <div aria-hidden="true">
+    <div></div>
+  </div>
+</div>
+`;
+
+exports[`projects Can be prioritized 1`] = `
+<div>
+  <header>
+    <h1>SIMPLE TODO LISTS</h1>
+    <h5>FROM RUBY GARAGE</h5>
+  </header>
+  <div>
+    <div>
+      <div><span><span>GREAT PROJECT</span></span><span><div></div><div></div></span></div>
+      <div>
+        <div><input data-testid="project-input-94" placeholder="Start typing here to create a new task..." value><button data-testid="add-task-for-project-94">Add Task</button></div>
+      </div>
+      <div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-1"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>111111111</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-2"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>222222222</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><button data-testid="create-project"> Add TODO List</button>
+  <div aria-hidden="true">
+    <div></div>
+  </div>
+</div>
+`;

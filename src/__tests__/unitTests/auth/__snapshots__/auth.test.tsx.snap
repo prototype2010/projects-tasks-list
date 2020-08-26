@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth tests can login 1`] = `
+<div>
+  <header>
+    <h1>SIMPLE TODO LISTS</h1>
+    <h5>FROM RUBY GARAGE</h5>
+  </header>
+  <div>
+    <div>
+      <div><span><span>GREAT PROJECT</span></span><span><div></div><div></div></span></div>
+      <div>
+        <div><input data-testid="project-input-94" placeholder="Start typing here to create a new task..." value><button data-testid="add-task-for-project-94">Add Task</button></div>
+      </div>
+      <div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-1"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>111111111</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div>
+          <div><span aria-disabled="false" data-testid="task-checkbox-2"><span><input type="checkbox" data-indeterminate="false" aria-label="secondary checkbox" value></span><span></span></span></div>
+          <div>222222222</div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><button data-testid="create-project"> Add TODO List</button>
+  <div aria-hidden="true">
+    <div></div>
+  </div>
+</div>
+`;
+
+exports[`Auth tests can sign up 1`] = `
+<div>
+  <div>
+    <form novalidate>
+      <div><label data-shrink="true" for="email">Email</label>
+        <div data-testid="email"><input aria-invalid="false" name="email" placeholder="example@domain.com" type="email" value>
+          <fieldset aria-hidden="true">
+            <legend><span>Email</span></legend>
+          </fieldset>
+        </div>
+        <p></p>
+      </div>
+      <div><label data-shrink="true" for="password">Password</label>
+        <div data-testid="password"><input aria-invalid="false" name="password" type="password" value>
+          <div><button type="button" aria-label="toggle password visibility"><span></span><span></span></button></div>
+          <fieldset aria-hidden="true">
+            <legend><span>Password</span></legend>
+          </fieldset>
+        </div>
+        <p></p>
+      </div>
+      <div><label data-shrink="true" for="passwordConfirmation">Confirm password</label>
+        <div data-testid="repeat-password"><input aria-invalid="true" name="passwordConfirmation" type="password" value>
+          <div><button type="button" aria-label="toggle password visibility"><span></span><span></span></button></div>
+          <fieldset aria-hidden="true">
+            <legend><span>Confirm password</span></legend>
+          </fieldset>
+        </div>
+        <p>Passwords should match</p>
+      </div>
+      <div><button type="submit" data-testid="sign-up"><span>Sign Up</span><span></span></button>
+        <div><a href="/sign-in"><span data-testid="to-sing-in">Sign In</span></a><a href="/sign-up"><span data-testid="to-sing-up">Sign Up</span></a></div>
+      </div>
+    </form>
+  </div>
+  <div aria-hidden="true">
+    <div></div>
+  </div>
+</div>
+`;

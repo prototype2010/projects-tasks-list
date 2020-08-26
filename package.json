@@ -1,0 +1,122 @@
+{
+  "name": "ruby-garage-todo-list",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@date-io/moment": "^1.3.13",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@popperjs/core": "^2.4.4",
+    "@reduxjs/toolkit": "^1.4.0",
+    "axios": "^0.19.2",
+    "date-fns": "^2.15.0",
+    "fontsource-roboto": "^3.0.3",
+    "history": "^4.10.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "prettier": "^2.0.4",
+    "qs": "latest",
+    "react": "^16.13.1",
+    "react-datepicker": "^3.1.3",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^5.7.2",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "redux-saga": "^1.1.3",
+    "styled-components": "^5.1.1",
+    "styled-normalize": "^8.0.7",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.8",
+    "@types/history": "^4.7.7",
+    "@types/html-parser": "^0.11.0",
+    "@types/jest": "^25.2.3",
+    "@types/lodash": "^4.14.159",
+    "@types/node": "^12.12.54",
+    "@types/pretty": "^2.0.0",
+    "@types/qs": "^6.9.4",
+    "@types/query-string": "^6.3.0",
+    "@types/react": "^16.9.45",
+    "@types/react-datepicker": "^3.1.1",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/redux-saga": "^0.10.5",
+    "@types/route-parser": "^0.1.3",
+    "@types/styled-components": "^5.1.2",
+    "@types/webpack-env": "^1.15.2",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "@welldone-software/why-did-you-render": "^4.3.0",
+    "axios-mock-adapter": "^1.18.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "html-parser": "^0.11.0",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "jest-styled-components": "^7.0.2",
+    "pretty": "^2.0.0",
+    "react-test-renderer": "^16.13.1",
+    "react-testing-library": "^8.0.1",
+    "route-parser": "0.0.5",
+    "standard": "^14.3.4",
+    "ts-jest": "^25.4.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "./src/**/*.{jsx,js,tsx,ts}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "./src/mocks",
+      "./src/testUtils",
+      "./src/react-app-env.d.ts",
+      "./src/serviceWorker.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "coverageReporters": [
+      "text"
+    ]
+  },
+  "scripts": {
+    "start:test": "REACT_APP_MODE=testing react-scripts start",
+    "start": "REACT_APP_MODE=development react-scripts start",
+    "build": "REACT_APP_MODE=production REACT_APP_STORAGE_TYPE=localStorage  react-scripts --max_old_space_size=3072 build",
+    "test": "REACT_APP_MODE=testing react-scripts test --maxWorkers=4 --watchAll=true --testTimeout=5000 --env=jest-environment-jsdom-sixteen ",
+    "test:coverage": "REACT_APP_MODE=testing react-scripts test --maxWorkers=4 --watchAll=true --testTimeout=5000 --env=jest-environment-jsdom-sixteen --coverage",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
