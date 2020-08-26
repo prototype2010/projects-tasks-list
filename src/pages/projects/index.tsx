@@ -6,6 +6,7 @@ import { Projects } from './components/project/Projects';
 import { Header } from 'components/header/Header';
 import { NewProjectButton } from './components/project/NewProjectButton';
 import { fetchProjectsAction, isProjectsLoading } from 'store/projects/reducer';
+import { Footer } from '../../components/footer/Footer';
 
 const DataPage = () => {
   const dispatch = useDispatch();
@@ -26,6 +27,8 @@ const DataPage = () => {
       <FormLoaderBackdrop open={isLoading}>
         <CircularProgress color="primary" />
       </FormLoaderBackdrop>
+
+      <Footer />
     </>
   );
 };

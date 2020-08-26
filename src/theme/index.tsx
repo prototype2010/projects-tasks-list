@@ -75,10 +75,18 @@ const materialTheme = createMuiTheme(
 const GlobalStyles = createGlobalStyle<{ theme: typeof theme }>`
   ${normalize}
   
+  html, body, #root, #root > * {
+    min-height: calc(100vh - 40px);
+    margin: 0;
+  }
+  
   #root {
     width: 100%;
     overflow: hidden;
     background: #f2f2f2;
+    height: 100%;
+    position: relative;
+    padding-bottom: 50px;
   }
   
    body * {
@@ -88,6 +96,7 @@ const GlobalStyles = createGlobalStyle<{ theme: typeof theme }>`
     outline: 0;
     border: 0;
     box-sizing: border-box;
+    // height: 100%;
   }
 ​
   h1 {
