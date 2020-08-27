@@ -76,7 +76,7 @@ const GlobalStyles = createGlobalStyle<{ theme: typeof theme }>`
   ${normalize}
   
   html, body, #root, #root > * {
-    min-height: calc(100vh - 40px);
+    min-height: calc(100vh - 70px);
     margin: 0;
   }
   
