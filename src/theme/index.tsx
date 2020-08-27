@@ -75,9 +75,17 @@ const materialTheme = createMuiTheme(
 const GlobalStyles = createGlobalStyle<{ theme: typeof theme }>`
   ${normalize}
   
-  html, body, #root, #root > * {
-    min-height: calc(100vh - 70px);
+  body, html {
     margin: 0;
+    background: rgb(211,207,167);
+    background: linear-gradient(177deg, rgba(211,207,167,1) 0%, rgba(210,183,91,1) 47%, rgba(196,115,12,1) 100%);
+  }
+  
+  #root > * {
+    min-height: calc(100vh - 10px);
+    background: rgb(211,207,167);
+    background: linear-gradient(177deg, rgba(211,207,167,1) 0%, rgba(210,183,91,1) 47%, rgba(196,115,12,1) 100%);
+    padding-bottom: 50px;
   }
   
   #root {
@@ -86,7 +94,9 @@ const GlobalStyles = createGlobalStyle<{ theme: typeof theme }>`
     background: #f2f2f2;
     height: 100%;
     position: relative;
-    padding-bottom: 50px;
+    
+    background: rgb(211,207,167);
+    background: linear-gradient(177deg, rgba(211,207,167,1) 0%, rgba(210,183,91,1) 47%, rgba(196,115,12,1) 100%);
   }
   
    body * {
@@ -96,7 +106,6 @@ const GlobalStyles = createGlobalStyle<{ theme: typeof theme }>`
     outline: 0;
     border: 0;
     box-sizing: border-box;
-    // height: 100%;
   }
 ​
   h1 {

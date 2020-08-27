@@ -5,12 +5,6 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     footer: {
       textAlign: 'center',
-      //position: absolute;
-      //     left: 0;
-      //     bottom: 0;
-      //     height: 100px;
-      //     width: 100%;
-      //     overflow: hidden;
       position: 'absolute',
       width: '100%',
       left: 0,
