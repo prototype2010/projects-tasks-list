@@ -41,6 +41,7 @@ exports[`Auth tests can login 1`] = `
   <div aria-hidden="true">
     <div></div>
   </div>
+  <footer>@ Ruby Garage</footer>
 </div>
 `;
 

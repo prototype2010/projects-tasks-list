@@ -50,6 +50,7 @@ exports[`projects Can be created 1`] = `
   <div aria-hidden="true">
     <div></div>
   </div>
+  <footer>@ Ruby Garage</footer>
 </div>
 `;
 
@@ -94,6 +95,7 @@ exports[`projects Can be deleted 1`] = `
   <div aria-hidden="true">
     <div></div>
   </div>
+  <footer>@ Ruby Garage</footer>
 </div>
 `;
 
@@ -138,6 +140,7 @@ exports[`projects Can be edited 1`] = `
   <div aria-hidden="true">
     <div></div>
   </div>
+  <footer>@ Ruby Garage</footer>
 </div>
 `;
 
@@ -182,5 +185,6 @@ exports[`projects Can be prioritized 1`] = `
   <div aria-hidden="true">
     <div></div>
   </div>
+  <footer>@ Ruby Garage</footer>
 </div>
 `;

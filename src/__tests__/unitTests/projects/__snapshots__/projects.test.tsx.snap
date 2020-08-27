@@ -52,6 +52,7 @@ exports[`Tasks Can be created 1`] = `
   <div aria-hidden="true">
     <div></div>
   </div>
+  <footer>@ Ruby Garage</footer>
 </div>
 `;
 
@@ -96,6 +97,7 @@ exports[`Tasks Can be deleted 1`] = `
   <div aria-hidden="true">
     <div></div>
   </div>
+  <footer>@ Ruby Garage</footer>
 </div>
 `;
 
@@ -140,5 +142,6 @@ exports[`Tasks Can be edited 1`] = `
   <div aria-hidden="true">
     <div></div>
   </div>
+  <footer>@ Ruby Garage</footer>
 </div>
 `;
