@@ -104,7 +104,7 @@ export const ProjectHeader: React.FC<ProjectHeaderI> = ({ name, id, deadline }) 
   return (
     <div className={projectHeader}>
       <span className={centeredContainer}>
-        <EventNoteIcon className={calendarIcon} />
+        <EventNoteIcon onClick={openEditModal} className={calendarIcon} />
         <span className={projectNameContainer}>{name}</span>
       </span>
 
